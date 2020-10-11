@@ -30,7 +30,7 @@ useEffect(()=>{
     if(successSave){
         setModalVisible(false);
     }
-   dispatch(listProducts());
+   dispatch(listProducts("all"));
 return()=>{
     //
 }
