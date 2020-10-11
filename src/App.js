@@ -13,6 +13,7 @@ import PaymentScreen from './Screens/PaymentScreen';
 import PlaceOrderScreen from './Screens/PlaceOrderScreen';
 
 function App() {
+  const secret=process.env.secret;
   const userSignin=useSelector(state=>state.userSignin);
   const {userInfo}=userSignin;
 
